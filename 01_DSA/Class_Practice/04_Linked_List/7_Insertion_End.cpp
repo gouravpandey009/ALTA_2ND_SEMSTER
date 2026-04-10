@@ -7,27 +7,6 @@ Insert at End
 */
 
 
-int main() {
-    Node* head = NULL; // Start with an empty list
-
-    // Use your function to build the list
-    insertAtEnd(head, 10);
-    insertAtEnd(head, 20);
-    insertAtEnd(head, 30);
-    insertAtEnd(head, 40); // Adding a 4th node easily!
-
-    // Print
-    Node* temp = head;
-    while(temp != NULL) {
-        cout << temp->data << " ";
-        temp = temp->next;
-    }
-
-    return 0;
-}
-
-
-/*
 #include <iostream>
 using namespace std;
 
@@ -84,6 +63,28 @@ int main() {
     insertAtEnd(head, 40);
 
     printList(head);
+
+    return 0;
+}
+
+
+
+/*
+int main() {
+    Node* head = NULL; // Start with an empty list
+
+    // Use your function to build the list
+    insertAtEnd(head, 10);
+    insertAtEnd(head, 20);
+    insertAtEnd(head, 30);
+    insertAtEnd(head, 40); // Adding a 4th node easily!
+
+    // Print
+    Node* temp = head;
+    while(temp != NULL) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
 
     return 0;
 }

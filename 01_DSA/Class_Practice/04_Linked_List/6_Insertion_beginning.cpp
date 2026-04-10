@@ -1,17 +1,16 @@
 #include <iostream>
 using namespace std;
 
-// Node structure
-class Node {
-public:
-    int data;
-    Node* next;
+// // Node structure
+// class Node {
+// public:
+  int data;
+     Node* next;
 
-    Node(int val) {
-        data = val;
-        next = NULL;
-    }
-};
+   Node(int val) {
+       data = val;
+        next = NULL;    }
+// };
 
 // Function to insert at beginning
 void insertAtBeginning(Node* &head, int val) {
